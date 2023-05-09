@@ -63,10 +63,44 @@
   border: 2px solid yellow;
 }
 
-.item-1{
+/* absolute */
+/* .item-1{
   background-color: aquamarine;
-  position: static;
+  position: absolute;
   bottom: -50px;
   left:-50px;
   z-index: -1;
+} */
+
+/* static (no access to top, left, right, bottom, z-index) */
+.item-1{
+  position: static;
 }
+
+/* relative */
+/* .item-1{
+  background-color: aquamarine;
+  position: relative;
+  bottom: -50px;
+  left:-50px;
+  z-index: -1;
+} */
+
+
+/* fixed  */
+/* .item-5{
+  background-color: aquamarine;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+} */
+
+/* static */
+/* .item-5{
+  background-color: aquamarine;
+  position: sticky;
+  top: 100px;
+  bottom: 100px;
+  z-index: 1;
+} */
